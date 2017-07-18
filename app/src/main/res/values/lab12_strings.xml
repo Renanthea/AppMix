@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="animacoes">
+        <item>anim 1</item>
+        <item>anim 2</item>
+        <item>anim 3</item>
+        <item>anim 4</item>
+        <item>anim 5</item>
+    </string-array>
+
+    <string-array name="interpolador">
+        <item>interpolador 1</item>
+        <item>interpolador 2</item>
+        <item>interpolador 3</item>
+        <item>interpolador 4</item>
+        <item>interpolador 5</item>
+        <item>interpolador 6</item>
+        <item>interpolador 7</item>
+        <item>interpolador 8</item>
+        <item>interpolador 9</item>
+    </string-array>
+</resources>

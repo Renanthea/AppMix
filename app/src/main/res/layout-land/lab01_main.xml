@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@id/lab01_tv_title"
+        style="@style/AppTheme.Lab01.Title"
+        android:text="Vários Apps" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/lab01_bt_megasena"
+                android:text="@string/lab01_bt_megasena"
+                style="@style/AppTheme.Lab01.Button.Green" />
+
+            <Button
+                android:id="@+id/lab01_bt_gorjeta"
+                style="@style/AppTheme.Lab01.Button.Red"
+                android:text="@string/lab01_bt_gorjeta"/>
+
+            <Button
+                android:id="@+id/lab01_bt_camera"
+                style="@style/AppTheme.Lab01.Button.Red"
+                android:text="@string/lab01_bt_camera"/>
+
+            <Button
+                style="@style/AppTheme.Lab01.Button.Red" />
+
+            <Button
+                style="@style/AppTheme.Lab01.Button.Red" />
+
+            <Button
+                style="@style/AppTheme.Lab01.Button.Red" />
+
+            <Button
+                style="@style/AppTheme.Lab01.Button.Red" />
+
+            <Button
+                style="@style/AppTheme.Lab01.Button.Red" />
+
+            <Button
+                style="@style/AppTheme.Lab01.Button.Red" />
+
+            <Button
+                style="@style/AppTheme.Lab01.Button.Red" />
+
+            <Button
+                android:id="@+id/lab01_bt_animacao"
+                style="@style/AppTheme.Lab01.Button.Green"
+                android:text="Animações"/>
+
+            <Button
+                android:id="@+id/lab01_bt_animacao_quadro"
+                style="@style/AppTheme.Lab01.Button.Green"
+                android:text="Animação quadro a quadro"/>
+
+            <Button
+                android:id="@+id/lab01_bt_fragment"
+                style="@style/AppTheme.Lab01.Button.Green"
+                android:text="Hotel (Fragment)"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
